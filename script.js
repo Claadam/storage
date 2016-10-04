@@ -1,4 +1,4 @@
-var input = $("3.14159265358979323846")
+var input = $("smol_apple")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
@@ -7,6 +7,6 @@ input.keydown(function(e) {
   }
 })
 
-onNewValue("3.141592653589793238462643383", function(value) {
+onNewValue("smol_apple", function(value) {
   $("#value-output").html(value)
 })
