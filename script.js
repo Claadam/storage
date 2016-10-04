@@ -4,8 +4,8 @@ input.keydown(function(e) {
   if (e.keyCode == "13") {
     var valueToSave = input.val();
     console.log("hi");
-    storeValue("little_apple", value);
-    console.log(value)
+    storeValue("little_apple", valueToSave);
+    console.log(valueToSave)
   }
 })
 
