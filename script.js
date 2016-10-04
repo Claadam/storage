@@ -1,12 +1,13 @@
-var input = $("#not-a-real-id")
+var input = $("#value-output")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    storeValue("davidsVariable", valueeeee);
+    storeValue("little_apple", valueeeee);
+    console.log(little_apple)
   }
 })
 
-onNewValue("davidsVariable", function(value) {
+onNewValue("little_apple", function(value) {
   $("#value-output").html(value)
 })
