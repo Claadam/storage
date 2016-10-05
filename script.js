@@ -1,12 +1,12 @@
-var input = $("smol_apple")
+var input = $("")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    console.log("hi");
+    addListItem(valueToSave);
   }
 })
 
-onNewValue("smol_apple", function(value) {
-  $("#value-output").html(value)
-})
+onNewListItem("davidsList", function(value) {
+  $("#list-display").append("<div>" + value + "</div>")
+}) 
