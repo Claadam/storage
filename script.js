@@ -1,4 +1,4 @@
-var input = $("")
+var input = $("list-display")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
